@@ -1,0 +1,16 @@
+ function setup() { 
+createCanvas(400, 400);
+	background(255);
+}
+
+
+function draw() { 
+	background(0);
+	colorMode(HSB);                   
+	var h = random(178);
+  stroke(h, 94, 74);
+	for ( var x= 10; x<height; x=x+10) {
+				line(190,0,x,height);
+		rect(183, 0, 15, 400);
+	}
+}
