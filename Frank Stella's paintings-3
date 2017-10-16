@@ -1,0 +1,20 @@
+function setup() { 
+  createCanvas(400, 400);
+} 
+
+function draw() { 
+	colorMode(HSB);
+	fill(130,96,85);
+ rect(270,200,100,90);
+	fill(138,98,99);
+	rect(360,120,30,30);
+	fill(157,98,99);
+	rect(120,120,180,90);
+	fill(0);
+		rect(60,80,70,70);
+	fill(65,98,99);
+	ellipse(250,170,120,120);
+	ellipse(110,190,70,70);
+	ellipse(350,100,50,50);
+	
+}
